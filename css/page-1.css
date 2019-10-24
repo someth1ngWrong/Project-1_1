@@ -1,0 +1,40 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700&display=swap');
+
+.btn {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: blue;
+  text-align: center;
+}
+
+.btn ul {
+  display: inline-block;
+  text-align: center;
+}
+
+.btn ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.btn ul li:first-child {
+  margin-right: 100px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.btn a:hover {
+  color: black;
+}
+
+.end {
+  margin-top: 56px;
+}

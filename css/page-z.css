@@ -1,0 +1,131 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700|PT+Sans&display=swap');
+body {
+  background-image: url(../img/bg-1.jpg);
+}
+.name {
+  height: 392px;
+  width: 1136px;
+  margin-top: 90px;
+  margin-left: 152px;
+  margin-right: 152px;
+  background-image: url(../img/name.png);
+  background-size: cover;
+}
+.name:hover {
+  background-image: url(../img/name-light.png);
+}
+
+.eye {
+  height: 1091px;
+  width: 1440px;
+  margin-top: 140px;
+  background-image: url(../img/eye-white.png);
+  background-size: cover;
+}
+.eye:hover {
+  background-image: url(../img/eye.png);
+}
+
+
+.one {
+  margin-top: 554px;
+  width: 835px;
+  margin-left: 100px;
+}
+
+.one h1 {
+ font-size: 60px;
+}
+
+
+
+.one p {
+  font-size: 43px;
+  line-height: 43px;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Anonymous Pro', monospace;
+  margin: 19px 0;
+
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  margin 16px;
+  line-height: 23px;
+
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+
+
+
+
+.btn {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: blue;
+  text-align: center;
+}
+
+.btn ul {
+  display: inline-block;
+  text-align: center;
+}
+
+.btn ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.btn ul li:first-child {
+  margin-right: 100px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.btn a:hover {
+  color: black;
+}
+
+.cont {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.end {
+  margin-top: 56px;
+}
+
+.free {
+  height: 11916px;
+}
