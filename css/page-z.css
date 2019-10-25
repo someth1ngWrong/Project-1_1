@@ -1,7 +1,7 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700|PT+Mono&display=swap');
 body {
-  background-image: url(../img/1x.jpg);
+  background-image: url(../img/1x-1.jpg);
 }
 .name {
   height: 392px;
@@ -83,7 +83,6 @@ p {
 .t-o h2 {
   color: white;
   font-size: 70px;
-
 }
 
 .t-o p {
@@ -91,6 +90,11 @@ p {
   color: white;
   margin-bottom: 100px;
   width: 844px;
+}
+
+.t-o a {
+  text-decoration: none;
+  color: white;
 }
 
 /*  */
@@ -190,8 +194,13 @@ p {
   width: 844px;
 }
 
+.last-day a {
+  text-decoration: none;
+  color: white;
+}
+
 .last {
-  margin-top: 241px;
+  margin-top: 290px;
   margin-left: 418px;
 }
 
@@ -266,11 +275,32 @@ p {
   left: 572px;
 }
 .hsep {
-  width: 311px;
-  height: 716px;
+  width: 323px;
+  height: 492px;
   position: absolute;
-  top: 6071px;
-  left: 572px;
+  top: 7309px;
+  left: 82px;
+}
+.click {
+  width: 190px;
+  height: 84px;
+  position: absolute;
+  top: 9010px;
+  left: 551px;
+}
+.light {
+  width: 1240px;
+  height: 1305px;
+  position: absolute;
+  top: 8862px;
+  left: 100px;
+}
+.die {
+  width: 1436px;
+  height: 1183px;
+  position: absolute;
+  top: 10021px;
+  left: 5px;
 }
 
 
@@ -336,5 +366,5 @@ p {
 
 
 .free {
-  height: 11916px;
+  height: px;
 }
