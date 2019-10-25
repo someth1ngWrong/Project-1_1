@@ -79,10 +79,6 @@ p {
   margin-top: 471px;
   margin-left: 100px;
 }
-.t-o img {
-  margin-left: 815px;
-  margin-bottom: 800px;
-}
 
 .t-o h2 {
   color: white;
@@ -120,6 +116,7 @@ p {
 
 .ufo {
   margin-top: 480px;
+  z-index: 2;
 }
 .ufo .two {
   font-size: 30px;
@@ -214,17 +211,68 @@ p {
   margin-bottom: 33px;
 }
 
-
+/* img */
 
 .arx {
-  background-image: url(../img/arx.png);
   width: 426px;
   height: 160px;
-  right 10px
-  bottom 20px;
-  /* margin: 2921px 199px 8123px 815px; */
-
+  position: absolute;
+  top: 2900px;
+  left: 815px;
 }
+
+.eye {
+  width: 213px;
+  height: 245px;
+  position: absolute;
+  top: 1059px;
+  left: 1227px;
+}
+
+.nos {
+  width: 279px;
+  height: 139px;
+  position: absolute;
+  top: 3809px;
+  left: 917px;
+}
+
+.bulb {
+  width: 1421px;
+  height: 538px;
+  position: absolute;
+  top: 4120px;
+  left: 14px;
+}
+.none {
+  width: 72px;
+  height: 340px;
+  position: absolute;
+  top: 4946px;
+  left: 262px;
+}
+.ntwo {
+  width: 117px;
+  height: 275px;
+  position: absolute;
+  top: 5579px;
+  left: 298px;
+}
+.ufop {
+  width: 311px;
+  height: 716px;
+  position: absolute;
+  top: 6071px;
+  left: 572px;
+}
+.hsep {
+  width: 311px;
+  height: 716px;
+  position: absolute;
+  top: 6071px;
+  left: 572px;
+}
+
 
 
 
@@ -249,7 +297,7 @@ p {
 
 /* навигация */
 .btn {
-  z-index: 2;
+  z-index: 10;
   position: fixed;
   right: 0;
   left: 0;
