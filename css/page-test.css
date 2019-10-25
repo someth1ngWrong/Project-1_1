@@ -6,3 +6,10 @@ body {
 .free {
   height: 11916px;
 }
+
+.test {
+  background-image: url(../img/ai.svg);
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}

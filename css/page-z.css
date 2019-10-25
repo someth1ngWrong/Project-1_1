@@ -1,7 +1,7 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700|PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700|PT+Mono&display=swap');
 body {
-  background-image: url(../img/bg-1.jpg);
+  background-image: url(../img/1x.jpg);
 }
 .name {
   height: 392px;
@@ -16,16 +16,22 @@ body {
   background-image: url(../img/name-light.png);
 }
 
-.eye {
-  height: 1091px;
-  width: 1440px;
-  margin-top: 140px;
-  background-image: url(../img/eye-white.png);
-  background-size: cover;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Anonymous Pro', monospace;
+  margin-bottom: 38px;
 }
-.eye:hover {
-  background-image: url(../img/eye.png);
+
+p {
+    font-family: 'PT Mono', monospace;
+    font-size: 30px;
+    line-height: 41px;
 }
+
+
+/* Первый курс глазами первокурсника */
 
 
 .one {
@@ -35,54 +41,215 @@ body {
 }
 
 .one h1 {
- font-size: 60px;
+  font-size: 70px;
 }
-
-
 
 .one p {
-  font-size: 43px;
-  line-height: 43px;
+  width: 884px;
+  font-size: 30px;
+  line-height: 41px;
 
 }
 
-h1,
-h2,
-h3,
-h4 {
+/* --- */
+
+
+.post {
+  margin-top: 298px;
+  margin-right: 100px;
+  position: relative;
+}
+.post h1 {
+  text-align: right;
+  font-size: 214px;
+  color: white;
+}
+.post p {
+  text-align: right;
+  color: white;
+  width: 769px;
+  position: absolute;
+  right: 0;
+}
+/*  */
+
+/* Творческий конкурс */
+
+.t-o {
+  margin-top: 471px;
+  margin-left: 100px;
+}
+.t-o img {
+  margin-left: 815px;
+  margin-bottom: 800px;
+}
+
+.t-o h2 {
+  color: white;
+  font-size: 70px;
+
+}
+
+.t-o p {
+  position: relative;
+  color: white;
+  margin-bottom: 100px;
+  width: 844px;
+}
+
+/*  */
+
+/*Баллы  */
+
+.points {
+  position: relative;
+  margin-top: 755px;
+  margin-left: 292px;
+}
+.points h2 {
+  font-size: 70px;
+
+}
+.points p {
+  width: 865px;
+  margin-bottom: 130px;
+}
+/*  */
+
+/* UFO */
+
+.ufo {
+  margin-top: 480px;
+}
+.ufo .two {
+  font-size: 30px;
+  margin-left: 597px;
+  margin-bottom: 15px;
+}
+.ufo .three {
+  font-size: 35px;
+  margin-left: 577px;
+  margin-bottom: 20px;
+}
+.ufo .four {
+  font-size: 40px;
+  margin-left: 556px;
+  margin-bottom: 25px;
+}
+.ufo .five {
+  font-size: 45px;
+  margin-left: 536px;
+  margin-bottom: 35px;
+}
+.ufo .plus {
+  font-size: 53px;
+  margin-left: 489px;
+}
+/*  */
+
+.uhse {
+  margin-top: 386px;
+  margin-left: 100px;
+  width: 1240px;
+}
+.nhse {
+  margin-top: 100px;
+  margin-left: 496px;
+  width: 844px;
+}
+/*  */
+
+.club {
+  margin-top: 318px;
+  font-size: 152px;
+  color: white;
+  text-align: center;
+}
+/*  */
+.yep {
+  margin-top: 274px;
+  margin-left: 167px;
+  width: 1107px;
   font-family: 'Anonymous Pro', monospace;
-  margin: 19px 0;
+  font-size: 36px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+
+}
+/*  */
+
+.last-day {
+  margin-top: 242px;
+  margin-left: 100px;
+}
+.last-day h2 {
+  font-size: 70px;
+  color: white;
+
+}
+.last-day p {
+  color: white;
+  width: 844px;
+}
+
+.last {
+  margin-top: 241px;
+  margin-left: 418px;
+}
+
+.last h3 {
+  font-size: 40px;
+  width: 730px;
+  line-height: 43px;
+  margin-bottom: 13px;
+
+}
+.last p {
+  font-size: 20px;
+  width: 693px;
+  line-height: 28px;
+}
+.last p:first-of-type {
+  margin-bottom: 33px;
+}
+
+
+
+.arx {
+  background-image: url(../img/arx.png);
+  width: 426px;
+  height: 160px;
+  right 10px
+  bottom 20px;
+  /* margin: 2921px 199px 8123px 815px; */
 
 }
 
-p {
-  font-family: 'PT Sans', sans-serif;
-  margin 16px;
-  line-height: 23px;
-
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 19px;
-}
-
-h4 {
-  font-size: 16px;
-}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* навигация */
 .btn {
+  z-index: 2;
   position: fixed;
   right: 0;
   left: 0;
@@ -116,15 +283,9 @@ h4 {
   color: black;
 }
 
-.cont {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
+/*  */
 
-.end {
-  margin-top: 56px;
-}
+
 
 .free {
   height: 11916px;
